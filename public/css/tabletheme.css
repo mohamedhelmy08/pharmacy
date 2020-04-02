@@ -1,0 +1,84 @@
+.table-responsive
+{
+	border : 1px solid black;
+
+}
+#Navigation-Bar{
+	background-color: black;
+}
+tr:last-child>td{
+	padding-bottom: 10px !important;
+}
+.table-responsive{
+	margin-bottom: 0;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #eeffee;
+}
+.table{
+	margin-bottom: 10px;
+}
+.table td{
+	border: 0 !important;
+}
+.table th{
+	border: 0 !important;
+	color: #305612;
+	border-bottom: 1px solid black !important;
+}
+.hover tbody>tr:hover
+{
+	background-color: #aabbaa !important;
+	font-weight: bold;
+}
+.city-table tr>*:nth-child(5)
+{
+	border-right: 1px solid black !important;
+}
+.city-table tr>*:nth-child(1)
+{
+	border-right: 1px solid black !important;
+}
+.doctor-table tr>*:nth-child(5),.doctor-table tr>*:nth-child(3)
+{
+	border-right: 1px solid black !important;
+}
+#doctors_table tr>*:nth-child(3),#doctors_table tr>*:nth-child(1),#doctors_table tr>*:nth-child(10)
+{
+	border-right: 1px solid black !important;
+}
+#salesmen_table tr>*:nth-child(1),#salesmen_table tr>*:nth-child(3)
+{
+	border-right: 1px solid black !important;
+}
+.doctor-table tr:first-child>th{
+	text-align: center;
+	border-right: 1px solid black !important;
+}
+.doctor-table tr:first-child>th:last-child{
+	text-align: center;
+	border-right: none !important;
+}
+tbody>tr>td:first-child,.plan-table>tbody>tr>td:nth-child(2){
+	
+}
+.show-link{
+	color: inherit;
+}
+.show-link:hover{
+	color: #001;
+}
+.salesman-table tr:first-child>th:nth-child(4){
+	text-align: center;
+	border-right: 1px solid black !important;
+}
+
+.plan-table tr>*:nth-child(1), .plan-table tr>*:nth-child(4){
+	border-right: 1px solid black !important;
+}
+#show_table td{
+  font-size:16px;
+  width: 120px;
+}
